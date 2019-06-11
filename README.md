@@ -16,3 +16,8 @@ PC/RPi-Process
 5. Save all data to database (SQLite)
 6. View Realtime Plot (gnuplot)
 7. Do step 1-5 and step 6 as a different task in multi tasking mode (by using pthread)
+
+Requirement :
+-sqlite
+-lwiringPi library (on RPi only)
+-gnuplot
