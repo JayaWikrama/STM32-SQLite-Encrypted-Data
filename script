@@ -1,0 +1,5 @@
+set title 'ADC Plot'
+set xlabel 'time(s)'
+set ylabel 'adc(12b)'
+plot 'myPlot.txt' with line
+pause 5

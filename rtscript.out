@@ -1,0 +1,7 @@
+set title 'ADC Plot'
+set xlabel 'time(s)'
+set xspan = 100
+set ylabel 'adc(12b)'
+plot 'myPlot.txt' with line
+pause 1
+reread
